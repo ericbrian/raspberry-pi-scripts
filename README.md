@@ -108,6 +108,8 @@ Node-RED is a programming tool for wiring together hardware devices, APIs and on
 bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
 ```
 
+Note: The shortcuts were not created. But, you can start and stop the service from command lines using `/usr/bin/node-red start` and `/usr/bin/node-red stop`.
+
 To run as a service:
 ```shell
 sudo systemctl enable nodered.service
@@ -118,13 +120,6 @@ To disable this service:
 ```shell
 sudo systemctl disable nodered.service
 ```
-
-To enable https, follow these steps: https://nodered.org/docs/user-guide/runtime/securing-node-red#enabling-https-access
-
-To secure the editor and admin API, follow these steps: https://nodered.org/docs/user-guide/runtime/securing-node-red#editor--admin-api-security
-
-To secure the dashboard, follow these steps: https://nodered.org/docs/user-guide/runtime/securing-node-red#http-node-security
-
 
 ## By-the-Way
 
