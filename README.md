@@ -7,7 +7,9 @@ Things I do often on a Raspberry Pi.
 sudo apt update
 sudo apt upgrade -y
 
-sudo apt install git
+sudo apt install build-essential git curl
+
+hostname -I # show this pi's hostname.
 ```
 
 ## PIP
@@ -91,3 +93,31 @@ client = redis.Redis(host='[hostname here]', port=6379, password='[password here
 client.set('language', 'python')
 print(client.get('language')) # returns: 'python'
 ```
+
+## Node-RED
+
+Node-RED is a programming tool for wiring together hardware devices, APIs and online services.
+
+```shell
+bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
+```
+
+To run as a service:
+```shell
+sudo systemctl enable nodered.service
+```
+
+To disable this service:
+
+```shell
+sudo systemctl disable nodered.service
+```
+
+To enable https, follow these steps: https://nodered.org/docs/user-guide/runtime/securing-node-red#enabling-https-access
+
+To secure the editor and admin API, follow these steps: https://nodered.org/docs/user-guide/runtime/securing-node-red#editor--admin-api-security
+
+To secure the dashboard, follow these steps: https://nodered.org/docs/user-guide/runtime/securing-node-red#http-node-security
+
+
+
