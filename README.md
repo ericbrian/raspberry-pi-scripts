@@ -126,4 +126,9 @@ To secure the editor and admin API, follow these steps: https://nodered.org/docs
 To secure the dashboard, follow these steps: https://nodered.org/docs/user-guide/runtime/securing-node-red#http-node-security
 
 
+## By-the-Way
 
+Since I am new to all of this, I am making note of things that seem important.... :-)
+
+Logs location: `/var/log`
+Running processes: `ps -aux`
