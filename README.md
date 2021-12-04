@@ -20,6 +20,8 @@ sudo apt-get install python3-pip
 
 ## UFW (Uncomplicated Firewall)
 
+Uncomplicated Firewall is a program for managing a netfilter firewall designed to be easy to use. It uses a command-line interface consisting of a small number of simple commands, and uses iptables for configuration. 
+
 ```shell
 sudo apt install ufw -y
 sudo ufw enable
@@ -39,6 +41,8 @@ sudo ufw allow 1883/tcp
 
 ## MQTT (Message Queue Telemetry Transport)
 
+MQTT is a lightweight, publish-subscribe network protocol that transports messages between devices.
+
 ```shell
 sudo apt install mosquitto mosquitto-clients
 sudo systemctl status mosquitto # looking for 'active (running)'
@@ -47,6 +51,8 @@ sudo systemctl status mosquitto # looking for 'active (running)'
 Note: you will probably have to open a hole in the firewall for port 1883. See example of that in UFW section
 
 ## Redis
+
+Redis is an in-memory data structure store, used as a distributed, in-memory key–value database, cache and message broker, with optional durability.
 
 ```shell
 sudo apt install redis-server
