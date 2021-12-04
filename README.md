@@ -79,6 +79,7 @@ sudo /etc/init.d/redis-server restart
 
 To test you can use this simple python script:
 
+redis-test-script.py
 ```python
 import redis # pip install redis
 client = redis.Redis(host='[hostname here]', port=6379, password='[password here]')
