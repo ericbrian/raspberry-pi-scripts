@@ -61,7 +61,7 @@ Note: you will probably have to open a hole in the firewall for port 1883. See e
 Redis is an in-memory data structure store, used as a distributed, in-memory key–value database, cache and message broker, with optional durability.
 
 ```shell
-sudo apt install redis-server
+sudo apt install redis-server -y
 ```
 
 Configuration file at
