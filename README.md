@@ -47,6 +47,10 @@ MQTT is a lightweight, publish-subscribe network protocol that transports messag
 ```shell
 sudo apt install mosquitto -y
 sudo apt install mosquitto-clients
+```
+
+Check the status:
+```shell
 sudo systemctl status mosquitto # looking for 'active (running)'
 ```
 
