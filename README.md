@@ -15,7 +15,7 @@ hostname -I # show this pi's hostname.
 ## PIP
 
 ```
-sudo apt-get install python3-pip
+sudo apt-get install python3-pip -y
 ```
 
 ## UFW (Uncomplicated Firewall)
