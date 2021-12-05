@@ -33,10 +33,11 @@ To disable it:
 sudo ufw disable
 ```
 
-In ufw, allow port 1883 for mqtt:
+In ufw, allow port 1883 for mqtt. Also allow ssh:
 
 ```shell
 sudo ufw allow 1883/tcp
+sudo ufw allow OpenSSH
 ```
 
 ## MQTT (Message Queue Telemetry Transport)
