@@ -1,0 +1,145 @@
+[{
+    "id": 1,
+    "type": 3,
+    "domain": "^(.+\\.)??facebook\\.com$",
+    "enabled": 1,
+    "date_added": 1638978294,
+    "date_modified": 1638978294,
+    "comment": null
+}, {
+    "id": 2,
+    "type": 3,
+    "domain": "^(.+\\.)??facebook\\.net$",
+    "enabled": 1,
+    "date_added": 1638978308,
+    "date_modified": 1638978308,
+    "comment": null
+}, {
+    "id": 3,
+    "type": 3,
+    "domain": "^(.+\\.)??fbcdn\\.com$",
+    "enabled": 1,
+    "date_added": 1638978330,
+    "date_modified": 1638978330,
+    "comment": null
+}, {
+    "id": 4,
+    "type": 3,
+    "domain": "^(.+\\.)??fbsbx\\.com$",
+    "enabled": 1,
+    "date_added": 1638978343,
+    "date_modified": 1638978343,
+    "comment": null
+}, {
+    "id": 5,
+    "type": 3,
+    "domain": "^(.+\\.)??fbcdn\\.net$",
+    "enabled": 1,
+    "date_added": 1638978362,
+    "date_modified": 1638978362,
+    "comment": null
+}, {
+    "id": 6,
+    "type": 3,
+    "domain": "^(.+\\.)??instagram\\.com$",
+    "enabled": 1,
+    "date_added": 1638978372,
+    "date_modified": 1638978372,
+    "comment": null
+}, {
+    "id": 7,
+    "type": 3,
+    "domain": "^(.+\\.)??cdninstagram\\.com$",
+    "enabled": 1,
+    "date_added": 1638978388,
+    "date_modified": 1638978388,
+    "comment": null
+}, {
+    "id": 8,
+    "type": 3,
+    "domain": "^(.+\\.)??tfbnw\\.net$",
+    "enabled": 1,
+    "date_added": 1638978402,
+    "date_modified": 1638978402,
+    "comment": null
+}, {
+    "id": 9,
+    "type": 3,
+    "domain": "^(.+\\.)??whatsapp\\.com$",
+    "enabled": 1,
+    "date_added": 1638978414,
+    "date_modified": 1638978414,
+    "comment": null
+}, {
+    "id": 10,
+    "type": 3,
+    "domain": "^(.+\\.)??fb\\.me$",
+    "enabled": 1,
+    "date_added": 1638978425,
+    "date_modified": 1638978425,
+    "comment": null
+}, {
+    "id": 11,
+    "type": 3,
+    "domain": "^(.+\\.)??fb\\.com$",
+    "enabled": 1,
+    "date_added": 1638978437,
+    "date_modified": 1638978437,
+    "comment": null
+}, {
+    "id": 12,
+    "type": 3,
+    "domain": "^(.+\\.)??fbsbx.com\\.online-metrix\\.net$",
+    "enabled": 1,
+    "date_added": 1638978451,
+    "date_modified": 1638978451,
+    "comment": null
+}, {
+    "id": 13,
+    "type": 3,
+    "domain": "^(.+\\.)??facebook-web-clients\\.appspot\\.com$",
+    "enabled": 1,
+    "date_added": 1638978466,
+    "date_modified": 1638978466,
+    "comment": null
+}, {
+    "id": 14,
+    "type": 3,
+    "domain": "^(.+\\.)??instagramstatic-a.akamaihd\\.net$",
+    "enabled": 1,
+    "date_added": 1638978479,
+    "date_modified": 1638978479,
+    "comment": null
+}, {
+    "id": 15,
+    "type": 3,
+    "domain": "^(.+\\.)??instagramstatic-a\\.akamaihd\\.net\\.edgesuite\\.net$",
+    "enabled": 1,
+    "date_added": 1638978490,
+    "date_modified": 1638978490,
+    "comment": null
+}, {
+    "id": 16,
+    "type": 3,
+    "domain": "^(.+\\.)??fbcdn-profile-a\\.akamaihd\\.net$",
+    "enabled": 1,
+    "date_added": 1638978501,
+    "date_modified": 1638978501,
+    "comment": null
+}, {
+    "id": 17,
+    "type": 3,
+    "domain": "^(.+\\.)??facebook\\.com\\.edgekey\\.net$",
+    "enabled": 1,
+    "date_added": 1638978511,
+    "date_modified": 1638978511,
+    "comment": null
+}, {
+    "id": 18,
+    "type": 3,
+    "domain": "^(.+\\.)??facebook.net\\.edgekey\\.net$",
+    "enabled": 1,
+    "date_added": 1638978523,
+    "date_modified": 1638978523,
+    "comment": null
+}]
