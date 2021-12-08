@@ -127,6 +127,15 @@ To disable this service:
 sudo systemctl disable nodered.service
 ```
 
+## ssh
+
+```shell
+ssh-keygen
+
+eval $(ssh-agent)
+ssh-add
+```
+
 ## By-the-Way
 
 Since I am new to all of this, I am making note of things that seem important.... :-)
